@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+.Python
+.python-version
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pt
+*.pth
+*.h5
+# Keep layer-probe-checkpoints
+!layer-probe-checkpoints/*.pt
+
+# Weights & Biases
+wandb/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.png
+# Checkpoints directory should be tracked via Git LFS
+qwen2-gsm8k-checkpoints/
+# Keep specific visualization outputs that are important for README
+!residual_stream_entropy_all_tokens.png
+!residual_stream_entropy_last_token.png
+!token_logprobs_distribution.png
+!r1_layer_information_analysis_with_kl.png 
+regular_probes/
+r1_probes/
+layer-probe-checkpoints/
