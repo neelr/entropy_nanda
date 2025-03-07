@@ -6,12 +6,12 @@ Tools and scripts for analyzing information flow, entropy, and predictive capabi
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/entropy-nanda.git
+git clone https://github.com/neelr/entropy_nanda.git
 cd entropy-nanda
 
 # Create and activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate  # On Windows, use: .venv\Scripts\activate
+source .venv/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
