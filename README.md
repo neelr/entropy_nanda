@@ -44,11 +44,11 @@ python residual_stream_viz.py --model_name "Qwen/Qwen2-7B-Instruct" --num_exampl
 - `information_level_identifier.py`: Identifies information levels across layers using linear probes
 - `visualize_layers.py`: Visualizes layer-wise information and performance of probes
 - `residual_stream_viz.py`: Extracts and visualizes residual stream activations
-- `model_comparison.py`: Compares different model architectures
+- `model_comparison.py`: Compares different model outputs based on the same prompt
 - `layer-probe-checkpoints/`: Trained probes for different layers
 - `qwen2-gsm8k-checkpoints/`: Model checkpoints for GSM8K tasks
-- `regular_probes/`: Standard linear probes without regularization
-- `r1_probes/`: R1-based probes for layer analysis
+- `regular_probes/`: Standard linear probes without R1 tuning
+- `r1_probes/`: Probe weights for the R1 tuned model
 
 ## Dataset
 
